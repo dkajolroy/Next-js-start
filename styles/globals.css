@@ -14,3 +14,41 @@ a {
 * {
   box-sizing: border-box;
 }
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+ul a {
+  display: block;
+  padding: 8px 15px;
+  font-size: 20px;
+}
+
+ul {
+  background: tomato;
+  margin: 0;
+}
+
+ul a:hover {
+  background: black;
+  color: #fff;
+}
+
+.container-fluid {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.col {
+  flex: 1;
+  padding: 10px;
+}
